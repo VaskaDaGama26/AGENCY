@@ -1,0 +1,34 @@
+.news_container{
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.news_image{
+    flex: 1;
+}
+.news-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.news-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    margin: 10px 0;
+}
+
+.news-date {
+    color: #777;
+    font-size: 14px;
+}

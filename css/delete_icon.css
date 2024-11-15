@@ -1,0 +1,44 @@
+.delete-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #767676; /* Цвет иконки (красный) */
+    border-radius: 50%; /* Для создания круглой формы */
+    position: relative;
+    cursor: pointer;
+}
+
+/* Полосы (крестик) */
+.delete-icon::before,
+.delete-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 2px;
+    background-color: #fff; /* Цвет полос */
+    transform-origin: center;
+}
+
+/* Вертикальная полоса */
+.delete-icon::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* Горизонтальная полоса */
+.delete-icon::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.delete_button{
+    border: none;
+    background-color: white;
+    appearance: none;
+}
+.delete-id{
+    height: 25px;
+    width: 25px;
+    display: block;
+
+}

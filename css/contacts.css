@@ -1,0 +1,29 @@
+.contacts{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: block;
+    line-height: 2.5;
+}
+.contacts__link{
+    text-decoration: none;
+}
+.contacts__icon{
+    color: #ff3000;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contacts__icon:hover{
+    text-decoration: none;
+    color: black;
+}
+.contacts__info{
+    font-family: "Century Gothic";
+    font-size: larger;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}

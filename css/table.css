@@ -1,0 +1,42 @@
+.table__col{
+    border: 1px solid #767676;
+}
+table{
+    width: 75%;
+    margin-top: 50px;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.tr__row{
+    border-bottom: 1px solid #767676;
+    margin-bottom: 10px;
+}
+td{
+    text-align: center;
+    margin-top: 10px;
+}
+.tr__row{
+    background-color: white;
+    height: 30px;
+}
+
+.table__header{
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.tr__row img, .tr__row1 img, .tr__row2 img{
+    width: 150px;
+    height: 125px;
+    object-fit: cover;
+    padding: 10px;
+}
+.img__col{
+    width: 150px;
+}
+.tbody_port, .tbody_news {
+    height: auto;
+}
+.download_invoice {
+    text-decoration: none;
+    color: #ff3000;
+}
