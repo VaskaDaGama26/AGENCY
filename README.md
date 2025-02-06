@@ -1,4 +1,5 @@
 # AGENCY
+> HTML5 | CSS3 | JS | PHP8 | *Non-responsive*
 
 AGENCY - website for a branding agency which offers their services.
 
